@@ -6,7 +6,7 @@ import CaroseulPage from "./components/caroseulPage";
 import Subtitles from "./components/subtitle";
 import YoutubeEmbed from "./components/video";
 import Card from "./components/Card/card";
-import Projects from "./components/Card/projects";
+import Projects from "./components/project/projects";
 import SecondPart from "./components/paragsecondpart";
 import ToggleVisibility from "./components/button";
 

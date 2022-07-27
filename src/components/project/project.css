@@ -1,0 +1,238 @@
+@media only screen and (min-width: 768px) {
+  .grid {
+    width: 315px;
+    margin-top: 35px;
+    margin-left: 60px;
+    font-family: "Roboto";
+    display: grid;
+    grid-template-columns: repeat(4, 315px);
+    grid-gap: 40px 20px;
+    border: 1px #14171c;
+    stroke-width: 1px;
+  }
+
+  .card {
+    margin-top: 64px;
+    font-family: "Roboto";
+    margin-left: 60px;
+    height: 47px;
+    width: 346px;
+    border-bottom: solid red;
+  }
+  .cardTitle {
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 36px;
+    height: 42px;
+    width: 346px;
+  }
+
+  .images {
+    width: 315px;
+  }
+
+  .img {
+    height: 175px;
+    width: 315px;
+  }
+  .project {
+    height: auto;
+    border: 1px #14171c;
+    width: 315px;
+    stroke-width: 1px;
+    box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.15);
+  }
+
+  .projectTitle {
+    line-height: auto;
+    font-family: "Roboto";
+    align-content: center;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 0%;
+
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 4px;
+    margin-top: 24px;
+    width: 255px;
+  }
+
+  .name {
+    font-family: "Roboto";
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 15px;
+    align-content: center;
+
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 255px;
+    height: 14px;
+  }
+
+  .projectParagraph {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 14px;
+
+    margin-top: 20px;
+    margin-right: 30px;
+    margin-bottom: 24px;
+    margin-left: 30px;
+    width: 255px;
+    height: auto;
+  }
+
+  .footercss {
+    display: flex;
+    flex-direction: row;
+    height: 18px;
+    margin-bottom: 30px;
+  }
+
+  .calenderIcon {
+    width: 16px;
+    height: 16px;
+    margin-left: 30px;
+    margin-right: 8.43px;
+  }
+  .history {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 14px;
+    width: 152px;
+  }
+
+  .csscardarrow {
+    width: 36px;
+    height: 15px;
+    margin-left: 44px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .grid {
+    max-width: 335px;
+    max-height: 648px;
+    margin-top: 27px;
+    margin-left: 20px;
+    font-family: "Roboto";
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-gap: 20px;
+    border: 1px #14171c;
+    stroke-width: 1px;
+  }
+
+  .card {
+    margin-top: 52px;
+    font-family: "Roboto";
+    margin-left: 20px;
+    height: 33px;
+    width: 231px;
+    border-bottom: solid red;
+  }
+  .cardTitle {
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 24px;
+    height: 28px;
+    width: 231px;
+  }
+
+  .img {
+    place-items: left;
+    min-height: 134px;
+    max-width: 168px;
+    line-height: normal;
+  }
+
+  .project {
+    min-height: 134px;
+    border: 1px #14171c;
+    max-width: 335px;
+    min-height: 134px;
+    stroke-width: 1px;
+    box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.15);
+    display: flex;
+  }
+
+  .projectcarddikey {
+    align-items: flex-start;
+    min-height: 134px;
+    max-width: 167px;
+    flex-wrap: nowrap;
+  }
+
+  .projectTitle {
+    max-lines: 2;
+    font-family: "Roboto";
+    text-align: left;
+    font-weight: bold;
+    font-size: 15px;
+    min-height: 18px;
+    min-width: 150px;
+    letter-spacing: 0%;
+
+    margin-left: 20px;
+    margin-right: 58px;
+    margin-bottom: 4px;
+    margin-top: 20px;
+  }
+
+  .name {
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 15px;
+    align-content: center;
+
+    margin-left: 20px;
+    width: fit-content;
+    min-height: fit-content;
+    flex-wrap: nowrap;
+  }
+
+  .projectParagraph {
+    display: none;
+
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 14px;
+
+    margin-top: 20px;
+    margin-right: 30px;
+    margin-bottom: 24px;
+    margin-left: 30px;
+  }
+
+  .calenderIcon {
+    visibility: hidden;
+
+    width: 16px;
+    height: 16px;
+    margin-left: 30px;
+    margin-right: 8.43px;
+  }
+  .history {
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 12px;
+    width: 133px;
+
+    flex-wrap: nowrap;
+    align-self: start;
+    margin-left: 20px;
+  }
+
+  .csscardarrow {
+    width: 36px;
+    height: 15px;
+    margin-left: 20px;
+    margin-bottom: 16px;
+    margin-top: 16px;
+  }
+}

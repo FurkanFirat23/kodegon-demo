@@ -1,20 +1,14 @@
 import React from "react";
 
-const Subtitles = () => ( 
-  <div className="subtitles" > 
-    <Title1 /> 
-    <Title2 /> 
-    <Title3 /> 
-  </div> 
-) 
-const Title1 = () => ( 
-  <div className="title1">Lorem Ipsum</div> 
-) 
-const Title2  = () => ( 
-  <div className="title2">Dolor Sit Amet</div> 
-) 
-const Title3  = () => ( 
-  <div className="title2">Consectetur adipiscing elit</div> 
-) 
+const Subtitles = () => (
+  <div className="subtitles">
+    <Title masteryi="Lorem Ipsum" vayne="title1" />
+    <Title masteryi="Dolor Sit Amet" vayne="title2" />
+    <Title masteryi="Consectetur adipiscing elit" vayne="title2" />
+  </div>
+);
+const Title = ({ vayne, masteryi }) => {
+  return <div className={vayne}>{masteryi}</div>;
+};
 
 export default Subtitles;

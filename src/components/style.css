@@ -7,13 +7,6 @@
     overflow: hidden;
   }
 
-  /* .carouselstyle {
-    left: 100px;
-    bottom: 10px;
-    z-index: 5;
-   
-  } */
-
   .next {
     position: absolute;
     bottom: 10px;
@@ -36,17 +29,14 @@
     max-height: 10px;
     max-width: 50px;
     overflow: hidden;
-    
+
     left: 10px;
   }
 
-.control-dots{
-    padding: 0 150px;
+  .control-dots {
+    padding: 0 150px !important ;
     display: flex;
-    
     gap: 0.5rem;
-    
-   
   }
 
   .font-link {
@@ -140,17 +130,15 @@
   }
 }
 
-
 @media only screen and (max-width: 768px) {
   .carousel {
     bottom: 10px;
     font-size: 3rem;
-    
+
     z-index: 5;
     overflow: hidden;
-    max-width: 375px;
+    max-width: 100%;
     max-height: 450px;
-    
   }
 
   .next {
@@ -180,12 +168,10 @@
 
     left: 10px;
   }
-  .control-dots{
-   
+  .control-dots {
     display: flex;
     gap: 0.25rem;
-    padding: 0 150px;;
-  
+    padding: 0px 150px !important;
   }
   .font-link {
     font-family: "Roboto";
@@ -229,8 +215,6 @@
     font-size: 24px;
     font-weight: bold;
   }
-
- 
 
   .first-part {
     max-width: 335px;
