@@ -3,8 +3,8 @@ import PropTypes from "prop-types";
 
 const YoutubeEmbed = ({ embedId }) => (
   <div className="video-responsive">
-    <iframe className="videoboyut"
-      
+    <iframe
+      className="videoboyut"
       src={`https://www.youtube.com/embed/3aguZjkVLaE`}
       frameBorder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -15,7 +15,7 @@ const YoutubeEmbed = ({ embedId }) => (
 );
 
 YoutubeEmbed.propTypes = {
-  embedId: PropTypes.string.isRequired
+  embedId: PropTypes.string.isRequired,
 };
 
 export default YoutubeEmbed;

@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import Header from "./components/header";
 import Paragraphs from "./components/paragraph";
-import CaroseulPage from "./components/caroseulPage";
+import CarouselPage from "./components/carouselPage";
 import Subtitles from "./components/subtitle";
 import YoutubeEmbed from "./components/video";
 import Card from "./components/Card/card";
@@ -14,7 +14,7 @@ const App = () => {
   return (
     <div className="page">
       <>
-        <CaroseulPage />
+        <CarouselPage />
 
         <Subtitles />
 

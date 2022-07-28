@@ -34,8 +34,6 @@ const SecondPart = () => (
       tristique libero.
     </p>
   </div>
-
-  
-)
+);
 
 export default SecondPart;

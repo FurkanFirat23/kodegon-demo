@@ -2,11 +2,10 @@ import React from "react";
 import { Carousel } from "react-responsive-carousel";
 import "./style.css";
 
-const CaroseulPage = () => {
+const CarouselPage = () => {
   return (
     <Carousel
       className="carousel"
-      width={1440}
       renderIndicator={(clickHandler, isSelected) => {
         return (
           <div
@@ -38,7 +37,7 @@ const CaroseulPage = () => {
         );
       }}
     >
-      <div>
+      <div className="imgcarousel">
         <img alt="1" src="img/Banner.png" />
       </div>
       <div>
@@ -57,4 +56,4 @@ const CaroseulPage = () => {
   );
 };
 
-export default CaroseulPage;
+export default CarouselPage;
