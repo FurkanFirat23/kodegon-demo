@@ -1,5 +1,6 @@
 @media only screen and (min-width: 768px) {
   .carousel {
+    display: flex;
     bottom: 10px;
     font-size: 3rem;
     object-fit: cover;
