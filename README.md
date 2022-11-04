@@ -1,5 +1,6 @@
-This project was created for to get a job for kodegon company.
-it is all about to create a responsive web site from figma.
+# This project was created for to get a job for kodegon company. It is a website designed from figma.
+
+
 
 
 
