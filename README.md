@@ -1,3 +1,9 @@
+This project was created for to get a job for kodegon company.
+it is all about to create a responsive web site from figma.
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
